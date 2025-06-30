@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="27.842228mm"
+   height="28.361666mm"
+   viewBox="0 0 27.842228 28.361666"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="27.842228"
+       height="28.361666"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.2302623,-109.99877)">
+    <path
+       d="m 14.891932,127.38977 -5.7554462,-11.594 q -0.207778,-0.41555 -0.893445,-1.59989 -0.664889,-1.18433 -1.142778,-1.76611 -0.457111,-0.60256 -0.893444,-0.91422 -0.436334,-0.33245 -0.976556,-0.49867 v -1.01811 H 18.818933 v 1.01811 q -1.953112,0.22856 -1.953112,1.683 0,0.561 0.187,1.20511 0.207778,0.62334 0.955778,2.26478 l 3.781557,8.20723 4.114001,-8.49812 q 0.394777,-0.78955 0.602555,-1.41289 0.228556,-0.62333 0.311667,-0.99733 0.08311,-0.39478 0.08311,-0.76878 0,-1.496 -1.766111,-1.683 v -1.01811 h 7.937112 v 1.01811 q -0.706444,0.24933 -1.205111,0.60256 -0.498667,0.35322 -0.935,0.91422 -0.415556,0.561 -0.851889,1.309 -0.415556,0.72722 -1.288223,2.38944 l -5.776223,10.92912 v 5.94244 q 0,1.64145 0.249333,2.41023 0.249334,0.76877 0.748,1.16355 0.498667,0.39478 1.807667,0.66489 v 1.01811 H 12.08693 v -1.01811 q 1.309001,-0.27011 1.807667,-0.66489 0.519445,-0.39478 0.748,-1.16355 0.249334,-0.78956 0.249334,-2.41023 z m 2.306334,-0.49866 v 9.64089 h 3.490667 v -9.41234 l -7.20989,-15.29245 H 9.7390418 Z"
+       id="text1"
+       style="font-size:42.5529px;font-family:'Titan One';-inkscape-font-specification:'Titan One, Normal';text-align:center;text-anchor:middle;fill:#415d43;stroke-width:18.846;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       aria-label="𝕐"
+       inkscape:export-filename="Y-logo.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+</svg>

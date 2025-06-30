@@ -1,0 +1,53 @@
+import React from "react";
+import type { FC, SVGProps } from "react";
+import Image from "next/image";
+import {
+  HomeIcon,
+  MagnifyingGlassIcon,
+  InboxIcon,
+  BookmarkIcon,
+  UserIcon,
+  BellIcon,
+  EllipsisHorizontalCircleIcon,
+} from "@heroicons/react/24/outline";
+
+const Sidebar = () => {
+  return (
+    <nav className="h-screen hidden sm:flex flex-col sticky top-0 xl:ml-20">
+      <div className="relative h-full">
+        <div className="mt-4 mb-8">
+          <Image src={"/assets/Y-logo.svg"} alt="logo" width={48} height={48} />
+        </div>
+        <ul>
+          <SidebarLink text="Home" Icon={HomeIcon} />
+          <SidebarLink text="Explore" Icon={MagnifyingGlassIcon} />
+          <SidebarLink text="Notifications" Icon={BellIcon} />
+          <SidebarLink text="Messages" Icon={InboxIcon} />
+          <SidebarLink text="Bookmarks" Icon={BookmarkIcon} />
+          <SidebarLink text="Profile" Icon={UserIcon} />
+          <SidebarLink text="More" Icon={EllipsisHorizontalCircleIcon} />
+          <button className="border-2 bg-[#415d43] rounded-full py-3 px-[8rem] text-white font-bold">
+            Post
+          </button>
+        </ul>
+        <div className="absolute bottom-0">@user</div>
+      </div>
+    </nav>
+  );
+};
+
+type SidebarLinkProps = {
+  text: string;
+  Icon: FC<SVGProps<SVGSVGElement>>;
+};
+
+function SidebarLink({ text, Icon }: SidebarLinkProps) {
+  return (
+    <li className="flex items-center text-xl mb-5 ml-2 space-x-1">
+      <Icon className="h-7" />
+      <span className="hidden xl:block">{text}</span>
+    </li>
+  );
+}
+
+export default Sidebar;
