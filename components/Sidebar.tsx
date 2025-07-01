@@ -26,7 +26,7 @@ const Sidebar = () => {
           <SidebarLink text="Bookmarks" Icon={BookmarkIcon} />
           <SidebarLink text="Profile" Icon={UserIcon} />
           <SidebarLink text="More" Icon={EllipsisHorizontalCircleIcon} />
-          <button className="border-2 bg-[#415d43] rounded-full py-3 px-[8rem] text-white font-bold">
+          <button className="hidden lg:block  border-2 bg-[#415d43] rounded-full py-3 px-[8rem] text-white font-bold">
             Post
           </button>
         </ul>
