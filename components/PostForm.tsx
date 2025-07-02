@@ -20,11 +20,11 @@ const PostForm = () => {
       <div className="w-full">
         <textarea
           className="w-full leading-tight pt-1 
-         outline-none resize-none min-h-[50px] text-xl font-light  shadow-xl"
+         outline-none resize-none min-h-[50px] text-xl font-light "
           placeholder="What's happening?"
         />
 
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center pt-5">
           <div className="flex space-x-4">
             <PhotoIcon className="w-d[20px] h-[20px] text-[#415d43] "></PhotoIcon>
             <FaceSmileIcon className="w-d[20px] h-[20px]  text-[#415d43]"></FaceSmileIcon>

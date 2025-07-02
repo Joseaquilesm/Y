@@ -5,7 +5,7 @@ import TrendingFeed from "../components/TrendingFeed";
 export default function Home() {
   return (
     <div
-      className="flex text-[#111d13] min-h-screen max-w-[1400px] border-2 border-black
+      className="flex justify-center text-[#111d13] min-h-screen max-w-[1400px]
     mx-auto"
     >
       <Sidebar />

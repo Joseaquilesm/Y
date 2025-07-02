@@ -13,7 +13,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <nav className="h-screen hidden sm:flex flex-col sticky top-0 xl:ml-20">
+    <nav className="h-screen hidden sm:flex flex-col sticky top-0 xl:ml-20 ">
       <div className="relative h-full">
         <div className="mt-4 mb-8">
           <Image src={"/assets/Y-logo.svg"} alt="logo" width={48} height={48} />
@@ -26,7 +26,10 @@ const Sidebar = () => {
           <SidebarLink text="Bookmarks" Icon={BookmarkIcon} />
           <SidebarLink text="Profile" Icon={UserIcon} />
           <SidebarLink text="More" Icon={EllipsisHorizontalCircleIcon} />
-          <button className="hidden lg:block  border-2 bg-[#415d43] rounded-full py-3 px-[8rem] text-white font-bold">
+          <button
+            className="hidden sm:inline-block border-2 bg-[#415d43] rounded-full text-white font-bold 
+  py-2 px-6 md:py-3 md:px-16"
+          >
             Post
           </button>
         </ul>
