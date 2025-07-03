@@ -2,6 +2,7 @@ import Image from "next/image";
 import Sidebar from "../components/Sidebar";
 import Feed from "../components/Feed";
 import TrendingFeed from "../components/TrendingFeed";
+import SignUpPrompt from "@/components/SignUpPrompt";
 export default function Home() {
   return (
     <div
@@ -11,6 +12,7 @@ export default function Home() {
       <Sidebar />
       <Feed />
       <TrendingFeed />
+      <SignUpPrompt />
     </div>
   );
 }
