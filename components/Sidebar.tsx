@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import type { FC, SVGProps } from "react";
 import Image from "next/image";
@@ -10,8 +11,12 @@ import {
   BellIcon,
   EllipsisHorizontalCircleIcon,
 } from "@heroicons/react/24/outline";
+import { useSelector } from "react-redux";
+import { RootState } from "@/redux/store";
 
 const Sidebar = () => {
+  const username = useSelector((state: RootState) => state.user.username);
+
   return (
     <nav className="h-screen hidden sm:flex flex-col sticky top-0 xl:ml-20 ">
       <div className="relative h-full">
@@ -33,7 +38,7 @@ const Sidebar = () => {
             Post
           </button>
         </ul>
-        <div className="absolute bottom-0">@user</div>
+        <div className="absolute bottom-0">@{username}</div>
       </div>
     </nav>
   );
