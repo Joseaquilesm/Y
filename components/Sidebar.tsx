@@ -38,7 +38,16 @@ const Sidebar = () => {
             Post
           </button>
         </ul>
-        <div className="absolute bottom-0">@{username}</div>
+        <div className="flex w-full space-x-3 p-2 absolute bottom-9 items-center transition-colors duration-150 bg-transparent hover:bg-[#dde2dd] rounded-full">
+          <Image
+            src="/assets/profile-pic.jpg"
+            width="32"
+            height="32"
+            alt="profile picture"
+            className="rounded-full w-11 h-11 "
+          />
+          <div className="">@{username}</div>
+        </div>
       </div>
     </nav>
   );
