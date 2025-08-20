@@ -11,12 +11,9 @@ import {
   BellIcon,
   EllipsisHorizontalCircleIcon,
 } from "@heroicons/react/24/outline";
-import { useSelector } from "react-redux";
-import { RootState } from "@/redux/store";
+import UserInfo from "../components/UserInfo";
 
 const Sidebar = () => {
-  const username = useSelector((state: RootState) => state.user.username);
-
   return (
     <nav className="h-screen hidden sm:flex flex-col sticky top-0 xl:ml-20 ">
       <div className="relative h-full">
@@ -38,16 +35,7 @@ const Sidebar = () => {
             Post
           </button>
         </ul>
-        <div className="flex w-full space-x-3 p-2 absolute bottom-9 items-center transition-colors duration-150 bg-transparent hover:bg-[#dde2dd] rounded-full">
-          <Image
-            src="/assets/profile-pic.jpg"
-            width="32"
-            height="32"
-            alt="profile picture"
-            className="rounded-full w-11 h-11 "
-          />
-          <div className="">@{username}</div>
-        </div>
+        <UserInfo />
       </div>
     </nav>
   );

@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/24/outline";
 const PostForm = () => {
   return (
-    <div className="flex items-start p-4 space-x-4">
+    <div className="flex items-start p-4 space-x-4 border-b border-gray-100">
       <Image
         className=""
         src="/assets/Y-logo.svg"
@@ -24,7 +24,7 @@ const PostForm = () => {
           placeholder="What's happening?"
         />
 
-        <div className="flex justify-between items-center pt-5">
+        <div className="flex justify-between items-center pt-5 border-t border-gray-100">
           <div className="flex space-x-4">
             <PhotoIcon className="w-d[20px] h-[20px] text-[#415d43] "></PhotoIcon>
             <FaceSmileIcon className="w-d[20px] h-[20px]  text-[#415d43]"></FaceSmileIcon>

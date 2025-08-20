@@ -7,7 +7,7 @@ import {
 } from "@heroicons/react/24/outline";
 const Post = () => {
   return (
-    <div className="shadow-xs pb-4">
+    <div className="border-b border-gray-100 shadow-xs pb-4">
       <PostHeader />
       <div className="flex ml-16">
         <div className="flex items-center cursor-pointer space-x-1 group">
